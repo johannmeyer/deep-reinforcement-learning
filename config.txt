@@ -1,0 +1,8 @@
+Working config for Lunar Lander
+python3 main.py GAE LunarLander-v2 --lr=1e-4 --lr_c=1e-4 --num_episodes=5000 --batch_size=16 --hidden_layers 20 --gamma=0.99 --Lambda=0.95
+
+Working config for Pendulum-v0
+python3 main.py DDPG Pendulum-v0 --lr=1e-3 --lr_c=1e-2 --num_episodes=10000 --batch_size=64 --hidden_layers 20 20 --gamma=0.99
+
+Working config for BipedalWalker-v3
+python3 main.py TD3 BipedalWalker-v3 --lr=1e-5 --lr_c=1e-4 --num_episodes=5000 --batch_size=64 --hidden_layers 200 200 --gamma=0.997 --replay_mem_size=6e5
