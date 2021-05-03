@@ -1,6 +1,6 @@
 # Reinforcement Learning with a Custom Neural Network Library
 
-I developed this neural network library that includes common activation functions and optimisers. I have only implemented fully-connected layers as the main goal of the project was for implementing reinforcement learning algorithms for control purposes using the OpenAI gym. A write-up of some results that I obtained and a more detailed explanation of the algorithms and neural network library can be found [here](<./Learning to Walk - A Reinforcement Learning Approach.pdf>)
+I developed this neural network library that includes common activation functions and optimisers. I have only implemented fully-connected layers as the main goal of the project was for implementing reinforcement learning algorithms for control purposes using the OpenAI gym. A write-up of some results that I obtained and a more detailed explanation of the algorithms and neural network library can be found [here](<./Learning to Walk - A Reinforcement Learning Approach.pdf>).
 
 # Neural Network Library
 An example of using the neural network library for regression is given in `nn_bivariate_regression.py`.
@@ -38,7 +38,7 @@ python3 main.py TD3 BipedalWalker-v3 --lr=1e-5 --lr_c=1e-4 --num_episodes=5000 -
 ```
 
 # Bipedal Walker Environment
-Below is a Gif of a TD3 agent solving the [bipedal walker environment](<https://github.com/openai/gym/wiki/BipedalWalker-v2>) with a score of 319.09.
+Below is a Gif of a TD3 agent solving the [bipedal walker environment](<https://github.com/openai/gym/wiki/BipedalWalker-v2>) with a score of 319.
 
 
 ![TD3 Bipedal Walker Gif](<./TD3-319.09.gif>)
